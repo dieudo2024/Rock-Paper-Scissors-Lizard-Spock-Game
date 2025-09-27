@@ -1,0 +1,33 @@
+<!-- Dieudonne
+// 24th September 2025
+// Rock Paper Scissors Lizard Spock Game
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Rock-Paper-Scissors-Lizard-Spock</title>
+     <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="img/RPSLS.webp" alt="Game Logo" width="200">
+    <h1> Rock-Paper-Scissors-Lizard-Spock</h1>
+
+        <p id="score">Player: 0 | Computer: 0 | Ties: 0</p>
+        <p id="message">First to <strong>score 5 wins</strong></p>
+        <button id="reset">Reset</button>
+
+    <div>
+      <button class="choice" data-choice="rock" style="background: url('img/rock RPSLS.jpg') no-repeat center center;">Rock</button>
+      <button class="choice" data-choice="paper" style="background: url('img/Paper\ RPSLS.jpg') no-repeat center center;">Paper</button>
+      <button class="choice" data-choice="scissors" style="background: url('img/Scissors\ RPSLS.jpg') no-repeat center center;">Scissors</button>
+      <button class="choice" data-choice="lizard" style="background: url('img/lizard\ RPSLS.jpg') no-repeat center center;">Lizard</button>
+      <button class="choice" data-choice="spock" style="background: url('img/spock\ RPSLS.jpg') no-repeat center center;">Spock</button>
+    </div>
+
+    <p id="result"></p>
+    <button id="computer-choice" style="background: url('img/lizard\ RPSLS.jpg') no-repeat center center;"></button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

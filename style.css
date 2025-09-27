@@ -1,0 +1,57 @@
+/* Dieudonne
+** 24th September 2025
+** Rock Paper Scissors Lizard Spock Game
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font: normal 18px;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 70px;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border: solid 1px rgb(231, 250, 92);
+}
+#result {
+    font-size: 22px;
+    margin: 20px;
+}
+#score {
+    font-size: 20px;
+    margin-top: 20px;
+}
+#reset {
+    width: 90px;
+    height: 50px;
+    background-color: rgba(86, 200, 154, 0.816);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: solid 2px yellow;
+}
+h1 {
+    color: rgb(83, 212, 86);
+    text-shadow: 2px 2px 4px #e2f04b48;
+    margin-bottom: 20px;
+}
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #51b673;
+    font-style: italic;
+}
+#score {
+    color: #142464;
+    font-weight: bold;
+}
